@@ -109,5 +109,7 @@ your machine (local) to the git repository in the cloud (remote), simply run git
     You will need to have the login details for an account that has the ability to update the repository. If you do not,
     please contact a member of the EDC
 
+TODO/Note: The below is not accurate, but planned
+
 If you need to edit the deployment info for readthedocs.com, the account that owns it is edc@synapseschool.org. You will,
 however, need to get the password in person, as giving it out online would be, frankly, stupid. Sorry for the inconvienence!!
