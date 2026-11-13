@@ -1,1 +1,5 @@
+# Built page (you build it yourself)
 docs/build/*
+# Exclude the files MacOS uses for how files are organized
+# in folders
+.DS_Store
