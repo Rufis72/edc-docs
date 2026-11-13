@@ -14,3 +14,4 @@ find the code at https://github.com/Rufis72/edc-docs and an intro to editing it 
    :caption: Sections:
 
    /editing
+   /laser_cutting
