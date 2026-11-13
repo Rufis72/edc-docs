@@ -25,8 +25,8 @@ to it's directory. To do so, run:
 
 .. code-block:: bash
 
-    git clone TODO
-    cd TODO
+    git clone https://github.com/Rufis72/edc-docs.git
+    cd edc-docs
 
 Next, we'll be installing the dependencies for this project. First, we'll be creating
 something that'll store all our dependencies, called a venv (short for virtual environment).
