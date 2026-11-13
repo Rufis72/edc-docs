@@ -28,14 +28,18 @@ to it's directory. To do so, run:
     git clone TODO
     cd TODO
 
-Next, we'll be installing the dependencies for this project. First, activate
-the Python virtual environment. These let you install dependencies without installing
-them to your entire system. Then, install the requirements.
+Next, we'll be installing the dependencies for this project. First, we'll be creating
+something that'll store all our dependencies, called a venv (short for virtual environment).
+After that, we'll be actually installing the requirements
 
 .. code-block:: bash
 
+    python3 -m venv ./venv
     source ./venv/bin/activate
     pip install -r requirements.txt
+
+.. Note::
+    On Windows, Python will be under just python, not python3
 
 Now that we've installed everything, all that's left is to turn our .rst files into
 code we can run in the web!
@@ -93,10 +97,10 @@ Next is conf.py. This tells sphinx (what we use to turn reST files into html fil
 Unless you're trying to do some big changes (like change the theme of these docs), this won't matter to you as well.
 
 Finally, ignoring all the other .rst files, we get to index.rst. This is the root file for our website, it's got
-the home page, and likes to every other file we ever use, directly or indirectly. Beyond that, it's not too special.
+the home page, and links to every other file we ever use, directly or indirectly. Beyond that, it's not too special.
 
 Deployment (for readthedocs.com)
-***************
+***************************************
 
 Whenever you update the git repository, readthedocs.com should see that and auto update. To send the changes you made on
 your machine (local) to the git repository in the cloud (remote), simply run git push.
